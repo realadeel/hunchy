@@ -1,6 +1,6 @@
-<h1>Ruby library for Hunch API</h1>
+Ruby library for Hunch API
 
-<h2>Usage:</h2>
+Usage:
 
 puts Hunchy.getQuestion(425553).inspect
 puts Hunchy.getResponse(1537153).inspect
