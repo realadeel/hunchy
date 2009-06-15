@@ -1,3 +1,10 @@
-Ruby library for Hunch API
+<h1>Ruby library for Hunch API</h1>
 
-http://www.hunch.com/developers/
+<h2>Usage:</h2>
+
+puts Hunchy.getQuestion(425553).inspect
+puts Hunchy.getResponse(1537153).inspect
+puts Hunchy.searchForQuestion('aliens ufos').inspect
+
+
+http://www.hunch.com/developers

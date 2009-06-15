@@ -12,8 +12,14 @@ class Hunchy
   def self.getQuestion(id)
     get('/getQuestion', :query => {:questionId => id})
   end
-  
-  # test
-  puts Hunchy.getQuestion(425553).inspect
+
+  # This will return information pertaining to a response to a question.
+  def self.getResponse(id)
+    get('/getResponse', :query => {:responseId => id})
+  end
+
+  def self.searchForQuestion(query)
+    get('/searchForQuestion', :query => {:query => query})
+  end
 
 end
