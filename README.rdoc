@@ -3,17 +3,23 @@
 == Example usage
 
 puts Hunchy.getQuestion(425553).inspect
+
 puts Hunchy.getResponse(1537153).inspect
+
 puts Hunchy.searchForQuestion('aliens ufos').inspect
+
 puts Hunchy.responseStats(109).inspect
+
 puts Hunchy.responsePairStats(109,113)
+
 puts Hunchy.responsePositiveCorrelations(109,5)
+
 puts Hunchy.responseNegativeCorrelations(109,5)
 
 == Notes
 
-Hunch was released publicly on June 15, 2009. According to the developer site:
-"Portions of the API are available currently, and the full API will be accessible after Hunch's full public launch."
+Hunch was released publicly on June 15, 2009.
+According to the developer site: "Portions of the API are available currently, and the full API will be accessible after Hunch's full public launch."
 
 Hunchy will be updated as more of the Hunch API becomes available. The library is also planned to be released as a gem soon. 
 
