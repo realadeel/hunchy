@@ -8,10 +8,12 @@ class Hunchy
   default_params :output => 'json'
   format :json
   
+  # This will return information pertaining to a Hunch question.
   def self.getQuestion(id)
     get('/getQuestion', :query => {:questionId => id})
   end
   
+  # test
   puts Hunchy.getQuestion(425553).inspect
 
 end
