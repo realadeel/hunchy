@@ -1,7 +1,9 @@
 = Hunchy: Ruby library for the Hunch JSON API
 
 What is Hunch?
-http://www.hunch.com/
+
+http://www.hunch.com
+
 "Hunch is a decision-making tool that gets smarter the more you use it. After asking you 10 questions or less, Hunch will provide a concrete result for decisions of every kind."
 
 Hunch was released publicly on June 15, 2009.
@@ -12,7 +14,7 @@ Hunchy will be updated as more of the Hunch API becomes available. There will be
 This library is also planned to be released as a gem soon.
 
 For more information on the Hunch API, visit:
-http://www.hunch.com/developers/
+http://www.hunch.com/developers
 
 == Example usage
 
@@ -26,7 +28,7 @@ http://www.hunch.com/developers/
 
 == Dependencies
 
-HTTParty: http://httparty.rubyforge.org/
+HTTParty gem: http://httparty.rubyforge.org
 
 == Contact
 
